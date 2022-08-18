@@ -1,0 +1,501 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
+- intent: Organic Farming 1                                            
+  examples: |
+    - PROPER DOSE OF AZOTOBACTER IN THE FIELD
+    - How much dose can be added in field for AZOTOBACTER
+    - what amount of AZOTOBACTER dose should be added
+    - dose of AZOTOBACTER 
+    - THE KVK CONTACT NUMBER OF LAKHIMPUR DISTRICT
+    - phone number of LAKHIMPUR DISTRICT
+    - LAKHIMPUR DISTRICT phone number
+    - phone no of LAKHIMPUR DISTRICT
+    
+- intent: Water Management 1                                           
+  examples: | 
+    - ASKING ABOUT HORSE POWER OF WATER PUMP 
+    - what is the horse power if water pump
+    - water pump horse power
+    - horse power of the water pump
+
+- intent: Water Management 2                                      
+  examples: | 
+    - Asking about irrigation in potato
+    - irrigation in potato
+    - about potato irrigation
+    - how is irrigation of potato done
+
+- intent: Water Management 3                               
+  examples: | 
+    - QUERY RELATED TO IRRIGATION OF PUMPKIN
+    - irrigation of pumpkin
+    - about pumpkin irrigation
+    - how is irrigation of pumpkin done
+
+
+- intent: Post Harvest Preservation                               
+  examples: | 
+    - QUERY ABOUT PRESERVATION OF BLACK GRAM
+    - how to preserve black gram
+    - preserving black gram
+    - i want to preserve black gram
+
+- intent: Dairy Production                            
+  examples: | 
+    - ASKING FOR THE VETERINARY EXPERT
+    - how to contact veterinary expert
+    - when to call veterinary expert
+    - when to call vet
+    - when to call vet expert
+    - what are the timings for calling vet expert
+    - timings to call veterinary expert
+    - QUERY REGARDING REARING OF POULTRY.
+    - rear poultry
+    - rearing of poultry
+
+- intent: Storage                      
+  examples: |
+    - QUERY REGARDING STORAGE OF PEDDY GRAIN
+    - how to store peddy grain
+    - storing of peddy grain
+    - storage of peddy grain
+
+- intent: Soil Testing                  
+  examples: |
+    - ASKING ABOUT SOIL TESTING
+    - How to test soil
+    - testing of soil
+
+- intent: Power Roads               
+  examples: |    
+    - Asking about viral disease of potato
+    - how to cure viral disease of potato
+    - cure for viral disease of potato
+    -  help for viral potato disease
+    - solution for viral potato disease 
+    - how to deal with potato disease
+
+- intent: Sowing Time             
+  examples: |    
+    - Asking about sowing time of mustard
+    - When is the sowing time of mustard
+    - when to sow mustard
+    - best time to sow mustard
+
+- intent: Fishery Nutrition             
+  examples: |
+    - QUERY RELATED TO FISHERY EXPERT
+    - contact fishery expert
+    - how to meet fishery expert
+    - fishery
+
+- intent: Nursery Management 1
+  examples: |
+    - Asking about nursery management in arecanut
+    - how to manage arecanut
+    - management of arecanut
+
+- intent: Nursery Management 2
+  examples: |
+    - Asking about flower inducing hormone for tomato
+    - what is the flower infucing hotmone for tomato
+    - how to induce flower in tomato
+
+
+- intent: Fish Fingerling Production
+  examples: |
+    - QUERY REGARDING BIOFLOCK FISH FARMING
+    - fish fingerling
+
+
+- intent: Agriculture Mechanization 1
+  examples: |
+    - ASKING ABOUT FUNGAL INFECTION IN ARECANUT
+    - how to cure fungal infection in arecanut 
+    - how to deal with fungal infection in arecanut
+    - solution for fungal infection in arecanut
+
+- intent: Agriculture Mechanization 2
+  examples: |
+    - ASKING ABOUT SCHEMES RELATED PROCURING FARM MACHINERIES
+    - which schemes are there for procuring farm machineries
+    - information about schemes under farm machineries
+
+
+- intent: Agriculture Mechanization 3
+  examples: |
+    - ASKING ABOUT SUBSIDY FOR TRACTOR PROCUREMENT
+    - subsidy for tractor procurment
+
+- intent: Integrated Farming
+  examples: |
+    - I want to open a pig farm by taking loan
+    - open a pig farm by taking loan
+    - take loan for pig farm
+    - how to take loan for pig farm
+
+- intent: Tank Ponds
+  examples: |
+    - FISH FARMING
+    - tell about fish farming
+
+- intent: Field Preparation
+  examples: |
+    - QUERY REGARDING SPACING OF STRAWBERRY
+    - how the spacing of strawberry plant be done
+    - spacing in strawberry plant
+    - how much space should be there between strawberry plant
+    - QUERY REGARDING PLANTING PROCEDURE FOR ARECANUT
+    - what is the planting procedure for arecanut
+    - planting procedure for arecanut
+    - how to plant arecanut
+    - QUERY REGARDING SOWING TIME POINTED GOURD
+    - what is the sowing time of pointed gourd
+    - in which months should we sow pointed gourd
+    - What is the fertilizer dose of pointed gourd
+    - fertilizer dose of pointed gourd
+    - ASKING ABOUT THE FIELD PREPARATION  OF TORIA
+    - how to plant toria
+    - QUERY REGARDING CONTROL OF SUCKING PEST IN RIDGE GOURD
+    - How to control sucking pest in ridge gourd
+    - asking about the fertilizer doses for ash gourd
+    - which are the recommended fertilizer doses for ash gourd
+    - fertilizer doses for ash gourd
+    - query regarding fertilizer doses for okra
+    - which are the recommended fertilizer doses for okra
+    - fertilizer doses for okra
+    - asking about package and practices of ash gourd
+    - QUERY REGARDING HOW TO PREPARE THE CUTTINGS FROM THE CITRUS PLANTS
+    - how to deal with cuttings from the citrus plants
+    - what to do with cuttings from citrus plants
+
+- intent: Varities
+  examples: |
+    - QUERY REGARDING VARIETY OF BORO RICE
+    - What are the various varities of boro rice
+    - varities of boro rice
+    - list the varitites of boro rice
+    - QUERY REGARDING VARIETY OF TORIA
+    - What are the various varities of toria
+    - varities of toria
+    - list the varitites of toria
+    - Asking about hybrid boro rice varieties
+    - What are the various varities of hybrid boro rice
+    - varities of hybrid boro rice
+    - list the varitites of hybrid boro rice
+    - Asking about cowpea varieties
+    - What are the various varities of cowpea
+    - varities of cowpea
+    - list the varitites of cowpea
+
+
+- intent: Seeds and Planting
+  examples: |
+    - ASKING ABOUT PROCUREMENT OF HYBRID SEEDS
+    - how to procure hybrid seeds
+    - Asking whether he can sow hybrid okra variety
+    - Can we sow hybrid okra variety
+    - is it possible to sow hybrid okra variety
+    - Asking about Variety, Spacing, Sowing time
+
+- intent: Cultural Practises
+  examples: |
+    - REGARDING SOWING TIME OF ASH GOURD
+    - What is the sowing time of ash gourd
+    - which are the best months to sow ash gourd
+    - in which months can we sow ash gourd
+    - REGARDING SOWING TIME OF PAPAYA
+    - What is the sowing time of papaya
+    - which are the best months to sow papaya
+    - in which months can we sow papaya
+    - ASKING ABOUT SEED RATE OF MUSTARD
+    - What is the seed rate of mustard
+    - Tell the seed rate of mustard
+    - ASKING ABOUT TRANSPLANTING STAGE OF ARECANUT
+    - When is the transplanting stage of arecanut
+    - what is the trasnplanting stage of arecanut
+    - QUERY REGARDING HOW TO CONTROL THE ALGAE FROM THE RICE FIELD.
+    - how to control algae from rice field
+    - how can we control algae from rice field
+    - how to prevent algae from rice  field
+    - ASKING ABOUT RECOMMENDED DOSE OF FERTILISER FOR PAPAYA
+    - what is the recommended dose of fertiliser for papaya
+    - which dose of fertiliser can be used for papaya
+    - Asking about ratio of vermicompost and cocopeat in raising seedling
+    - What is the ratio of vermicompost and cocopeat in raising seedling
+    - Asking about suitable sali rice varieties and fertilizer dose
+    - Which is the suitable sali rice varity and fertilizer dose for it
+    - Asking about pit size
+    - What should be the size of a pit
+    - size of a pit
+
+
+- intent: Fertilizer Use
+  examples: |
+    - QUERY REGARDING FERTILIZER DOSE OF ARECANUT
+    - Which fertilizer dose should we use for arecanut
+    - Fertilizer for arecanut
+    - QUERY REGARDING FERTILIZER DOSE OF CHILLI
+    - Which fertilizer dose should we use for chilli
+    - Fertilizer for chilli
+    - QUERY REGARDING FERTILIZER DOSE OF RAPESEED
+    - Which fertilizer dose should we use for rapeseed
+    - Fertilizer for rapseed
+    - QUERY REGARDING FERTILIZER DOSE OF LENTIL
+    - Which fertilizer dose should we use for lentil
+    - Fertilizer for lentil
+    - QUERY REGARDING FERTILIZER DOSE OF MUSTARD
+    - Which fertilizer dose should we use for mustard
+    - Fertilizer for mustard
+    - QUERY REGARDING FERTILIZER DOSE OF POINTED GOURD
+    - Which fertilizer dose should we use for pointed gourd
+    - Fertilizer for pointed gourd
+    - ASKING ABOUT THE APPLICATION OF VITAMINS IN TORIA
+    - what are the applications of vitamins in toria
+    - QUERY REGARDING FERTILIZER DOSE OF POTATO
+    - Which fertilizer dose should we use for potato
+    - Fertilizer for potato
+    - QUERY REGARDING FERTILIZER DOSE OF COLOCASIA
+    - Which fertilizer dose should we use for colocasia
+    - Fertilizer for colocasia
+    - Query about manure and fertilizer doses
+    - information about maure and fertilizer doses
+    - Asking about nutrient contact in DAP with respect to Urea and SSP
+    - Asking about fertiliser timing of coconut
+    - What time interval should we fertilize coconut
+    - At what time should we fertilize coconut
+
+
+- intent: Nutrient Management
+  examples: |
+    - ASKING ABOUT THE APPLICATION OF NUTRIENTS IN VEGETABLES
+    - What are the various applications of nutrients in vegetables
+    - QUERY REGARDING CONTROL OF BROWNING DISEASE IN CAULIFLOWER
+    - How to control browning disease in cauliflower
+    - how to prevent browning disease in cauliflower
+    - ASKING ABOUT APPLICATION OF VITAMINS IN POTATO.
+    - what are the applications of vitamins in potato
+    - QUERY REGARDING NUTRIENT MANAGEMENT IN PUMPKIN.
+    - REGARDING FLOWER DROP IN BRINJAL
+    - How to deal with dropping of flower in brinjal
+    - how to prevent falling of flower in brinjal
+    - AKING ABOUT HOW TO IMPROVE THE GROWTH OF THE PUMPKIN PLANT.
+    - how to improve pumpkin plan growth
+    - REGARDING VITAMINS  TO APPLY FOR PROPER GROWTH OF PADDY
+    - which vitamins should we apply for proper growth of paddy
+    - QUERY REGARDING NUTRIENT MANAGEMENT IN CAULIFLOWER
+    - How is management of nutrients in cauliflower
+    - QUERY REGARDING NUTRIENT MANAGEMENT IN DOLICHOS BEAN
+    - How is management of nutrients in DOLICHOS BEAN
+    - QUERY REGARDING BIO-LIME IN STRAWBERRY
+    - How to deal with boilime in strawberry
+    - QUERY REGARDING NUTRIENT MANAGEMENT IN POMEGRANATE
+    - How is management of nutrients in POMEGRANATE
+    - QUERY REGARDING NUTRIENT MANAGEMENT IN PADDY
+    - How is management of nutrients in paddy
+    - query regarding control of yellowing of leaves in black gram.
+    - how to prevent yellowing of leaves in black gram
+    - QUERY RELATED TO FERTILISER DOSE OF ASSAM LEMON
+    - Which fertilizer dose should we use for assam lemon
+    - Fertilizer for assam lemon
+    - Asking about flower inducing hormone
+    - which are the flower unducing hormone
+    - QUERY REGARDING NUTRIENT MANAGEMENT IN CASHEWNUT
+    - How is management of nutrients in cashewnut
+    - QUERY REGARDING NUTRIENT MANAGEMENT IN RIDGE GOURD
+    - How is management of nutrients in ridge gourd
+    - ASKING ABOUT APPLICATION OF MICRONUTRIENT
+    - What is the application of micronutrient
+    - ASKING ABOUT THE TIME OF BROADCASTING OF UREA
+    - what is the broadcasting time of urea
+    - ASKING ABOUT CONTROL OF IMMATURE FRUIT FALL IN PUMPKIN
+    - How to control immature fruit fall in pumpkin
+    - ASKING ABOUT APPLICATION OF POTASH
+    - what is the application of potash
+    - ASKING ABOUT NUTRIENT DEFICIENCY IN PUMPKIN
+    - how to prevent nutrient deficiency in pumpkin
+    - how to control nutrient deficiency in pumpkin
+    - query regarding fertilizer application in citrus
+    - ASKING ABOUT CONTROL OF FLOWER DROP IN LITCHI.
+    - how to prevent flower drop in litchi
+    - how to control falling of litchi flower
+
+
+- intent: Plant Protection
+  examples: |
+    - REGARDING FUNGAL ROT IN TORIA
+    - how to prevent fungal rot in toria
+    - how to control fungal rot in toria
+    - how to deal with fungal rot in toria
+    - Asking about powdery mildew in  blackgram
+    - how to prevent powdery mildew in  blackgram
+    - how to control powdery mildew in  blackgram
+    - how to deal with powdery mildew in  blackgram
+    - Asking about  mildew in  mustard
+    - how to prevent mildew in  mustard
+    - how to control mildew in  mustard
+    - how to deal with mildew in  mustard
+    - how to prevent RODENT IN POTATO FIELD
+    - how to control RODENT IN POTATO FIELD
+    - how to deal with RODENT IN POTATO FIELD
+    - QUERY REGARDING FUNGAL INFECTION IN PEPPER
+    - how to prevent FUNGAL INFECTION IN PEPPER
+    - how to control FUNGAL INFECTION IN PEPPER
+    - how to deal with FUNGAL INFECTION IN PEPPER
+    - how to prevent FRUIT FLY IN BOTTLE GOURD FIELD
+    - how to control FRUIT FLY IN BOTTLE GOURD FIELD
+    - how to deal with FRUIT FLY IN BOTTLE GOURD FIELD
+    - how to prevent FooD dropping in CARDAMUM
+    - how to control FooD dropping in CARDAMUM
+    - how to deal with FooD dropping in CARDAMUM
+    - how to prevent INSECT INFESTATION IN TORIA
+    - how to control INSECT INFESTATION IN TORIA
+    - how to deal with INSECT INFESTATION IN TORIA
+    - how to prevent fungal disease in mustard
+    - how to control fungal disease in mustard
+    - how to deal with fungal disease in mustard
+    - how to prevent blight in potato
+    - how to control blight in potato
+    - how to deal with blight in potato
+    - how to prevent late blight in potato
+    - how to control late blight in potato
+    - how to deal with late blight in potato
+    - how to prevent INSECT INFESTATION IN BRINJAL
+    - how to control INSECT INFESTATION IN BRINJAL
+    - how to deal INSECT INFESTATION IN BRINJAL
+    - how to prevent WILTING
+    - how to control WILTING
+    - how to deal WILTING
+    - PLANT PROTECTION IN POTATO
+    - how to protect potato plant
+    - PLANT PROTECTION IN Black gram
+    - how to protect black plant
+    - how to prevent WILTING OF FRENCH BEAN
+    - how to control WILTING OF FRENCH BEAN
+    - how to deal WILTING OF FRENCH BEAN
+    - how to prevent leaf curl virus
+    - how to control leaf curl virus
+    - how to deal leaf curl virus
+    - Asking about seed rate of lentil
+    - what is the seed rate of lentil
+    - QUERY REGARDING MANAGEMENT OF LEAF CURL IN CHILLIES
+    - how to manage leaf curl in chillies
+    - how to prevent BEETLE IN PUMPKIN
+    - how to control BEETLE IN PUMPKIN
+    - how to deal with BEETLE IN PUMPKIN
+    - how to prevent INSECT INFESTATION IN mango
+    - how to control INSECT INFESTATION IN mango
+    - how to deal INSECT INFESTATION IN mango
+    - how to prevent blight in brinjal
+    - how to control blight in brinjal
+    - how to deal with blight in brinjal
+    - how to prevent blight in pumpkin
+    - how to control blight in pumpkin
+    - how to deal with blight in pumpkin 
+    - how to prevent PESTS IN CAULIFLOWER
+    - how to control PESTS IN CAULIFLOWER
+    - how to deal with PESTS IN CAULIFLOWER
+    - how to prevent INSECTS IN DOLICHOS BEAN
+    - how to control INSECTS IN DOLICHOS BEAN
+    - how to deal INSECT INSECTS IN DOLICHOS BEAN
+    - how to prevent WILTING OF tomato
+    - how to control WILTING OF tomato
+    - how to deal WILTING OF tomato
+    - how to prevent INSECT PEST REMEDY IN TORIA
+    - how to control INSECT PEST REMEDY IN TORIA
+    - how to deal INSECT PEST REMEDY IN TORIA
+    - how to prevent  BACTERIAL WILT IN BRINJAL
+    - how to control  BACTERIAL WILT IN BRINJAL
+    - how to deal  BACTERIAL WILT IN BRINJAL
+    - how to prevent MEALYBUG IN BLACKGRAM
+    - how to control MEALYBUG IN BLACKGRAM
+    - how to deal MEALYBUG IN BLACKGRAM
+    - REMEDY FOR FRUIT BORER IN BOTTLEGOURD
+    - how to deal with fruit borer in bottlegourd
+    - BLIGHT SYMPTOMS IN BITTER GOURD
+    - how to detect blight symptoms in bitter gourd
+    - QUERY REGARDING SEED TREATMENT OF MUSTARD
+    - REMEDY FOR FRUIT BORER IN lemon
+    - how to deal with fruit borer in lemon
+    - BLIGHT SYMPTOMS IN lemon
+    - how to prevent BLIGHT IN DOLICHOS BEAN
+    - how to control BLIGHT IN DOLICHOS BEAN
+    - how to deal BLIGHT IN DOLICHOS BEAN
+    - how to prevent leaf curl virus of bottlegourd
+    - how to control leaf curl virus of bottlegourd
+    - how to deal leaf curl virus of bottlegourd
+    - how to prevent BUD DROP IN PUMPKIN
+    - how to control BUD DROP IN PUMPKIN
+    - how to deal BUD DROP IN PUMPKIN
+    - how to prevent termite problem
+    - how to control termite problem
+    - how to deal termite problem
+    - how to prevent WILTING OF potato
+    - how to control WILTING OF potato
+    - how to deal WILTING OF potato
+    - how to prevent root rot
+    - how to control root rot
+    - how to deal root rot
+    - PLANT PROTECTION OF RIDGE GOURD
+    - how to protect ridge gourd plant
+    - how to prevent bird attack
+    - how to control bird attack
+    - how to deal bird attack
+    - how to prevent INSECT attack in mango
+    - how to control INSECT attack in mango
+    - how to deal INSECT attack in mango
+    - how to prevent LEAF BLIGHT IN COCONUT
+    - how to control LEAF BLIGHT IN COCONUT
+    - how to deal LEAF BLIGHT IN COCONUT
+    - ASKING ABOUT THE DOSES OF STREPTOMYCIN
+    - how to use doses of streptomycin
+    - how to prevent FOOT ROT IN BETEL VINE
+    - how to control FOOT ROT IN BETEL VINE
+    - how to deal FOOT ROT IN BETEL VINE
+    - PLANT PROTECTION OF cashew
+    - how to protect cashew plant
+    - how to prevent VIRAL INFECTION IN CHILLI
+    - how to control VIRAL INFECTION IN CHILLI
+    - how to deal VIRAL INFECTION IN CHILLI
+    - how to prevent insect attack
+    - how to control insect attack
+    - how to deal insect attack
+    - how to prevent root rot disease in cabbage
+    - how to control root rot disease in cabbage
+    - how to deal root rot disease in cabbage
+    - PLANT PROTECTION OF rice
+    - how to protect rice plant
+    - how to prevent caterpillar from leaf eating
+    - how to control spread of caterpillars
+    - how to stop spread of caterpillars
